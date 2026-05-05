@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/neko.png" alt="neko" width="600" />
-</p>
-
 <h1 align="center">neko</h1>
 
 <p align="center">
@@ -59,7 +55,6 @@ Then commit and push.
 ```
 neko/
 ├── assets/
-│   ├── neko.png
 │   └── preview.png
 ├── README.md
 ├── sync.sh
