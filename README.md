@@ -2,10 +2,6 @@
   <img src="assets/neko.png" alt="neko" width="600" />
 </p>
 
-<p align="center">
-  <img src="assets/preview.png" alt="preview" width="800" />
-</p>
-
 <h1 align="center">neko</h1>
 
 <p align="center">
@@ -19,6 +15,10 @@
 | [kitty/](kitty/) | Kitty terminal — Catppuccin Mocha theme, IDE-style split keybindings, macOS blur |
 | [nvim/](nvim/) | Neovim (LazyVim) — Catppuccin Mocha transparent, multi-language LSP, custom dashboard |
 | [zsh/](zsh/) | Zsh (Oh My Zsh) — Starship prompt, Catppuccin syntax highlighting, dev toolchains |
+
+<p align="center">
+  <img src="assets/preview.png" alt="preview" width="800" />
+</p>
 
 ## Getting Started
 
