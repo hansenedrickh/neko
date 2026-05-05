@@ -58,6 +58,10 @@ If you prefer a different Nerd Font, change `font_family` in `kitty.conf`.
 | `Cmd+C` | Copy to clipboard |
 | `Cmd+V` | Paste from clipboard |
 
+## Tips
+
+- **Change app icon**: Swap the default kitty icon for something more aesthetic using [kitty-icon](https://github.com/DinkDonk/kitty-icon).
+
 ## Dependencies
 
 - [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator
