@@ -16,9 +16,7 @@
 | [nvim/](nvim/) | Neovim (LazyVim) — Catppuccin Mocha transparent, multi-language LSP, custom dashboard |
 | [zsh/](zsh/) | Zsh (Oh My Zsh) — Starship prompt, Catppuccin syntax highlighting, dev toolchains |
 
-<p align="center">
-  <img src="assets/preview.png" alt="preview" width="800" />
-</p>
+<img src="assets/preview.png" alt="preview" width="800" />
 
 ## Getting Started
 
