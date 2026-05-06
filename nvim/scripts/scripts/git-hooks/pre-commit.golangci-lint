@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Sample hook: copy into a Go repo as `.git/hooks/pre-commit` and chmod +x.
+#   cp ~/.config/nvim/scripts/git-hooks/pre-commit.golangci-lint .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+set -euo pipefail
+root="$(git rev-parse --show-toplevel)"
+cd "$root"
+if ! git diff --cached --name-only --diff-filter=ACM | grep -q '\.go$'; then
+  exit 0
+fi
+command -v golangci-lint >/dev/null 2>&1 || {
+  echo "golangci-lint not found in PATH; install it or remove this hook." >&2
+  exit 1
+}
+exec golangci-lint run
