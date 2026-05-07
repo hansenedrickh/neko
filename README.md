@@ -7,10 +7,11 @@
 ---
 
 | Config | Description |
-|---|---|
+|---|---|---|
 | [kitty/](kitty/) | Kitty terminal — Catppuccin Mocha theme, IDE-style split keybindings, macOS blur |
 | [nvim/](nvim/) | Neovim (LazyVim) — Catppuccin Mocha transparent, multi-language LSP, custom dashboard |
 | [zsh/](zsh/) | Zsh (Oh My Zsh) — Starship prompt, Catppuccin syntax highlighting, dev toolchains |
+| [k9s/](k9s/skins/) | K9s — Catppuccin Mocha skin |
 
 <img src="assets/preview.png" alt="preview" width="800" />
 
@@ -37,6 +38,9 @@
 
    # Zsh
    ln -sf ~/neko/zsh/.zshrc ~/.zshrc
+
+   # K9s
+   ln -sf ~/neko/k9s/skins ~/Library/Application\ Support/k9s/skins
    ```
 3. Open Kitty and Neovim — plugins will auto-install
 
@@ -73,6 +77,10 @@ neko/
 │   ├── LICENSE
 │   ├── lua/
 │   └── scripts/
+├── k9s/
+│   ├── README.md
+│   └── skins/
+│       └── catppuccin-mocha.yaml
 └── zsh/
     ├── README.md
     └── .zshrc

@@ -23,4 +23,7 @@ cp -R "$HOME/.config/nvim/scripts"          "$REPO/nvim/scripts"
 # Zsh
 cp "$HOME/.zshrc"                           "$REPO/zsh/.zshrc"
 
+# K9s
+cp -R "$HOME/Library/Application Support/k9s/skins" "$REPO/k9s/skins"
+
 echo "Done — all configs synced to repo."
